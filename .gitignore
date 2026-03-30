@@ -1,0 +1,57 @@
+.worktrees/
+.assets
+.docs
+.env
+*.pyc
+dist/
+build/
+*.egg-info/
+*.egg
+*.pycs
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzz
+.venv/
+venv/
+__pycache__/
+poetry.lock
+.pytest_cache/
+botpy.log
+nano.*.save
+.DS_Store
+uv.lock
+
+# Electron / Web build
+web/dist/
+web/dist-electron/
+web/temp_extract/
+web/node_modules/
+web/build/icon.iconset/
+web/*.zip
+web/*.zip.blockmap
+web/builder-*.yml
+web/builder-*.yaml
+
+# Python build
+*.spec
+litellm_tokenizers/
+nanobot/latest.tar.gz
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local config
+.nanobot/
